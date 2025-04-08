@@ -56,6 +56,9 @@ Follow these steps to annotate your ultrasonic images with **labelUT**:
    - If the image count matches, **labelUT** will successfully load the images and display them in the interface.
    - ![gif1](https://github.com/user-attachments/assets/caaf49cc-a394-495e-b7dd-d1617f399491)
    - <img src="https://github.com/user-attachments/assets/caaf49cc-a394-495e-b7dd-d1617f399491" width="500">
+   <div align="center">
+  <img src="https://github.com/user-attachments/assets/caaf49cc-a394-495e-b7dd-d1617f399491" width="500">
+   </div>
 
 
 2. **Set Label Save Directories**:
