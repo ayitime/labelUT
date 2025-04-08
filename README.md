@@ -6,6 +6,9 @@ Inspired by the popular `labelImg` annotation tool, **labelUT** is built using C
 
 Currently, **labelUT** supports the generation of labels in the YOLO format for object detection tasks.
 
+![image](https://github.com/user-attachments/assets/ec80c309-1901-49b9-b7bc-8a2b35263e61)
+
+
 ## Features:
 - Annotate B-scan and C-scan images simultaneously.
 - Label aligned targets across B-scan and C-scan images.
@@ -16,15 +19,21 @@ Currently, **labelUT** supports the generation of labels in the YOLO format for 
 ## Folder Structure:
 To use **labelUT**, you need to organize your image files into the following directory structure. Taking B-scan and C-scan images as an example, the directory should look like this:
 root/ 
-├── label_B/ 
-├── label_C/ 
-├── B_scan/ 
-└── C_scan/
+├── B_scanImages/  label_B/ 
+├── C_scanImages/  label_C/ 
+└── label
+      ├── B_scan
+      ├── C_scan
+      ├── classes.txt
+      └── BC_info.json
 
+Before starting the annotation process, you need to set the image folders for both modalities and the folder for storing the generated label files：
 
-- **B_scan/** and **C_scan/**: Store the respective images. These folders should contain the same number of images, which will be paired for annotation. The naming convention should be as similar as possible between B-scan and C-scan images, with only the suffix differing (e.g., `1_B.png`, `1_C.png`, `2_B.png`, `2_C.png`).
-  
-- **label_B/** and **label_C/**: These folders will store the annotation files for the B-scan and C-scan images, respectively. Annotations will be saved in YOLO format.
+- **B_scanImages/** and **C_scanImages/**: These folders store the respective images. The images in both folders should have corresponding names and numbers, ensuring they match between the B-scan and C-scan folders (e.g., `1.png` in B-scan should correspond to `1.png` in C-scan).
+
+- **label/**: This folder will store the annotation files. Before starting the annotation, you need to set the folder for saving the label files. Once set, two folders and files will be automatically generated: the **B_scan** and **C_scan** folders, which will contain the YOLO-format annotation files; **classes.txt**, which records all categories and their occurrence counts; and **BC_info.json**, which stores gate range information and intersection line data from the C-scan.
+
+- Once the settings are correctly configured and there are no issues, the two lights on the left will turn green, indicating that you can begin the annotation process!
 
 ### Supported Image Formats:
 - PNG
@@ -49,6 +58,7 @@ Follow these steps to annotate your ultrasonic images with **labelUT**:
 3. **Start Annotating**:
    - Once the directories are set, you can begin annotating the images in a manner similar to `labelImg`.
    - Use the interface to draw bounding boxes around the targets in both B-scan and C-scan images. The annotations will be saved in the respective label folders.
+   - When dragging the bounding box, labelUT will detect the left and right boundaries of the boxes that are close in position between the two modalities, providing visual cues and a mouse snap effect.
 
 ## Installation:
 
