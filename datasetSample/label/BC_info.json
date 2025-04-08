@@ -1,0 +1,32 @@
+{
+    "25_L": {
+        "gate_bot": 223,
+        "gate_top": 176,
+        "lineC": 190
+    },
+    "25_R": {
+        "gate_bot": 224,
+        "gate_top": 171,
+        "lineC": 142
+    },
+    "26_L": {
+        "gate_bot": 233,
+        "gate_top": 179,
+        "lineC": 147
+    },
+    "26_R": {
+        "gate_bot": 128,
+        "gate_top": 70,
+        "lineC": 150
+    },
+    "27_L": {
+        "gate_bot": 230,
+        "gate_top": 180,
+        "lineC": 141
+    },
+    "27_R": {
+        "gate_bot": 251,
+        "gate_top": 185,
+        "lineC": 142
+    }
+}

@@ -1,0 +1,2 @@
+bubble 9
+crack 2
