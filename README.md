@@ -19,8 +19,8 @@ Currently, **labelUT** supports the generation of labels in the YOLO format for 
 ## Folder Structure:
 To use **labelUT**, you need to organize your image files into the following directory structure. Taking B-scan and C-scan images as an example, the directory should look like this:
     root/
-    ├── B_scanImages/  label_B/
-    ├── C_scanImages/  label_C/
+    ├── B_scanImages/
+    ├── C_scanImages/
     └── label
           ├── B_scan
           ├── C_scan
