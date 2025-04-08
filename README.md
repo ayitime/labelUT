@@ -88,6 +88,14 @@ Follow these steps to annotate your ultrasonic images with **labelUT**:
 <img src="https://github.com/user-attachments/assets/298fbbb9-2772-438a-9030-a13918ed6e1b" width="500">
 </div>
 
+4. **Keyboard Shortcuts**:
+   - `W`: Draw a bounding box.
+   - `A`: Switch to the previous pair of B-scan and C-scan images.
+   - `D`: Switch to the next pair of images.
+   - `Ctrl + S`: Save current annotations.
+   - `Delete`: Delete the selected bounding box.
+
+
 ## Installation:
 
 To compile and run **labelUT**, ensure you have the following dependencies installed:
