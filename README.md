@@ -22,13 +22,22 @@ To use **labelUT**, you need to organize your image files into the following dir
 
     root/
     ├── B_scanImages/ 
+    |      ├── 1.png
+    |      └── 2.png 
     ├── C_scanImages/
-    └── label
-          ├── B_scan
-          ├── C_scan
+    |      ├── 1.png
+    |      └── 2.png
+    |
+    └── label/
+          ├── B_scan/
+          |   ├── 1.txt
+          |   └── 2.txt
+          ├── C_scan/
+          |   ├── 1.txt
+          |   └── 2.txt
+          |
           ├── classes.txt
           └── BC_info.json
-
 
 Before starting the annotation process, you need to set the image folders for both modalities and the folder for storing the generated label files：
 
