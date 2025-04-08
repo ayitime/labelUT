@@ -1,4 +1,4 @@
-# labelUT: Ultrasonic Phased Array Image Annotation Tool
+# labelUT: Phased Array Ultrasonic Orthogonal View Image Annotation Tool
 
 **labelUT** is a versatile tool designed for annotating B-scan and C-scan images from ultrasonic phased array data. It allows users to label not only aligned targets but also the gate intervals in the C-scan image, which are typically represented in the B-scan. Additionally, it provides the functionality to label the corresponding C-scan slice locations in the B-scan image.
 
