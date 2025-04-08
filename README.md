@@ -7,6 +7,8 @@ Inspired by the popular `labelImg` annotation tool, **labelUT** is built using C
 Currently, **labelUT** supports the generation of labels in the YOLO format for object detection tasks.
 
 ![image](https://github.com/user-attachments/assets/ec80c309-1901-49b9-b7bc-8a2b35263e61)
+<img src="https://github.com/user-attachments/assets/ec80c309-1901-49b9-b7bc-8a2b35263e61" width="500">
+
 
 
 ## Features:
@@ -53,12 +55,14 @@ Follow these steps to annotate your ultrasonic images with **labelUT**:
    - In the pop-up windows, select the directories containing your B-scan and C-scan images. Ensure that both folders contain the same number of images.
    - If the image count matches, **labelUT** will successfully load the images and display them in the interface.
    - ![gif1](https://github.com/user-attachments/assets/caaf49cc-a394-495e-b7dd-d1617f399491)
+   - <img src="https://github.com/user-attachments/assets/caaf49cc-a394-495e-b7dd-d1617f399491" width="500">
 
 
 2. **Set Label Save Directories**:
    - Click the `Change Save Dir` button on the left side.
    - In the pop-up windows, specify the save directories for the B-scan and C-scan annotation files.
    - ![gif2](https://github.com/user-attachments/assets/6a24bc95-c0d5-49ea-b870-4d6c99cc8c1f)
+   - <img src="https://github.com/user-attachments/assets/6a24bc95-c0d5-49ea-b870-4d6c99cc8c1f" width="500">
 
    
 3. **Start Annotating**:
@@ -66,7 +70,9 @@ Follow these steps to annotate your ultrasonic images with **labelUT**:
    - Use the interface to draw bounding boxes around the targets in both B-scan and C-scan images. The annotations will be saved in the respective label folders.
    - When dragging the bounding box, labelUT will detect the left and right boundaries of the boxes that are close in position between the two modalities, providing visual cues and a mouse snap effect.
    - ![gif3](https://github.com/user-attachments/assets/4be0b94b-14ed-4098-8372-590c7e098e82)
+   - <img src="https://github.com/user-attachments/assets/4be0b94b-14ed-4098-8372-590c7e098e82" width="500">
    - ![gif4](https://github.com/user-attachments/assets/298fbbb9-2772-438a-9030-a13918ed6e1b)
+   - <img src="https://github.com/user-attachments/assets/298fbbb9-2772-438a-9030-a13918ed6e1b" width="500">
 
 
 
