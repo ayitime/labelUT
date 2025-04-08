@@ -52,15 +52,23 @@ Follow these steps to annotate your ultrasonic images with **labelUT**:
    - Click the `OpenDir` button on the left side of the interface.
    - In the pop-up windows, select the directories containing your B-scan and C-scan images. Ensure that both folders contain the same number of images.
    - If the image count matches, **labelUT** will successfully load the images and display them in the interface.
+   - ![gif1](https://github.com/user-attachments/assets/caaf49cc-a394-495e-b7dd-d1617f399491)
 
-2. **Set Save Directories**:
+
+2. **Set Label Save Directories**:
    - Click the `Change Save Dir` button on the left side.
    - In the pop-up windows, specify the save directories for the B-scan and C-scan annotation files.
+   - ![gif2](https://github.com/user-attachments/assets/6a24bc95-c0d5-49ea-b870-4d6c99cc8c1f)
+
    
 3. **Start Annotating**:
    - Once the directories are set, you can begin annotating the images in a manner similar to `labelImg`.
    - Use the interface to draw bounding boxes around the targets in both B-scan and C-scan images. The annotations will be saved in the respective label folders.
    - When dragging the bounding box, labelUT will detect the left and right boundaries of the boxes that are close in position between the two modalities, providing visual cues and a mouse snap effect.
+   - ![gif3](https://github.com/user-attachments/assets/4be0b94b-14ed-4098-8372-590c7e098e82)
+   - ![gif4](https://github.com/user-attachments/assets/298fbbb9-2772-438a-9030-a13918ed6e1b)
+
+
 
 ## Installation:
 
