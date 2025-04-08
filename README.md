@@ -26,6 +26,18 @@ To use **labelUT**, you need to organize your image files into the following dir
           ├── C_scan
           ├── classes.txt
           └── BC_info.json
+## Folder Structure:
+To use **labelUT**, you need to organize your image files into the following directory structure. Taking B-scan and C-scan images as an example, the directory should look like this:
+
+    root/
+    ├── B_scanImages/  label_B/
+    ├── C_scanImages/  label_C/
+    └── label
+          ├── B_scan
+          ├── C_scan
+          ├── classes.txt
+          └── BC_info.json
+
 
 Before starting the annotation process, you need to set the image folders for both modalities and the folder for storing the generated label files：
 
