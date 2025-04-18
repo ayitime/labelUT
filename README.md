@@ -109,4 +109,7 @@ Clone the repository and follow the instructions in the `INSTALL.md` file for bu
 git clone https://github.com/ayitime/labelUT.git
 cd labelUT
 # Follow the build instructions
+```
 
+## Source Code Availability:
+The source code will be made publicly available as soon as possible. Please stay tuned. ♪(´▽｀)
