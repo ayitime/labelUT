@@ -11,7 +11,7 @@ Currently, **labelUT** supports the generation of labels in the YOLO format for 
 </div>
 
 ## Features:
-- Annotate B-scan and C-scan images simultaneously.
+- Annotate B-scan and C-scan images simultaneously. 
 - Label aligned targets across B-scan and C-scan images.
 - Annotate gate intervals in C-scan images as they correspond to B-scan.
 - Supports multiple image formats such as PNG, JPG, JPEG, BMP, and TIFF.
@@ -113,3 +113,4 @@ cd labelUT
 
 ## Source Code Availability:
 The source code will be made publicly available as soon as possible. Please stay tuned. ♪(´▽｀)
+ 
