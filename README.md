@@ -112,5 +112,7 @@ cd labelUT
 ```
 
 ## Source Code Availability:
-The source code will be made publicly available as soon as possible. Please stay tuned. ♪(´▽｀)
+~~The source code will be made publicly available as soon as possible. Please stay tuned.~~  
+The source code has now been released in the `labelUTsourceCode` directory ♪(´▽｀).
+
  
