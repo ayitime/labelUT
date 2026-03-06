@@ -115,4 +115,19 @@ cd labelUT
 ~~The source code will be made publicly available as soon as possible. Please stay tuned.~~  
 The source code has now been released in the `labelUTsourceCode` directory ♪(´▽｀).
 
+## 📖 Citation
+
+😄 If you find this work useful for your research, please cite:
+
+```bibtex
+@article{na2026ovanet,
+  title={A deep mutual learning-based framework for wind turbine blade defect detection in multimodal phased array ultrasonic data},
+  author={Na, Yiming and He, Yunze and Deng, Baoyuan and Yang, Chunlei and Li, Qiying and Wang, Liwen and Cao, Yi},
+  journal={Ultrasonics},
+  volume={164},
+  pages={108035},
+  year={2026},
+  issn={0041-624X},
+  doi={10.1016/j.ultras.2026.108035}
+}
  
