@@ -120,7 +120,7 @@ The source code has now been released in the `labelUTsourceCode` directory â™ª(Â
 ðŸ˜„ If you find this work useful for your research, please cite:
 
 ```bibtex
-@article{na2026ovanet,
+@ARTICLE{
   title={A deep mutual learning-based framework for wind turbine blade defect detection in multimodal phased array ultrasonic data},
   author={Na, Yiming and He, Yunze and Deng, Baoyuan and Yang, Chunlei and Li, Qiying and Wang, Liwen and Cao, Yi},
   journal={Ultrasonics},
@@ -128,6 +128,6 @@ The source code has now been released in the `labelUTsourceCode` directory â™ª(Â
   pages={108035},
   year={2026},
   issn={0041-624X},
+  keywords={Phased array ultrasonic testing; Multi-view object detection; Multimodal; Mutual learning}
   doi={10.1016/j.ultras.2026.108035}
 }
- 
